@@ -2,17 +2,32 @@
 
 > Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅
 
+Utilising tagged template literals (a recent addition to JavaScript) and the power of CSS allows you to write actual CSS code to style your components. It also removes the mapping between components and styles – using components as a low-level styling construct could not be easier!
+
+*This is a (not fully-featured)fork from original styled-components made by [Glen Maddern](https://twitter.com/glenmaddern) and [Max Stoiber](https://twitter.com/mxstbr), supported by [Front End Center](https://frontend.center) and [Thinkmill](http://thinkmill.com.au/). Thank you for making this project possible!*
+
 ## Support
 
 > This version is compatible with Vue 2.x
 
-``` 
+## Installation
+
+### as NPM package
+
+```
+npm install vue-styled-components --save
+
+# or
+
 yarn add vue-styled-components
 ```
 
-Utilising tagged template literals (a recent addition to JavaScript) and the power of CSS allows you to write actual CSS code to style your components. It also removes the mapping between components and styles – using components as a low-level styling construct could not be easier!
+### CDN delivered `<script>`
 
-*This is a (not fully-featured)fork from original styled-components made by [Glen Maddern](https://twitter.com/glenmaddern) and [Max Stoiber](https://twitter.com/mxstbr), supported by [Front End Center](https://frontend.center) and [Thinkmill](http://thinkmill.com.au/). Thank you for making this project possible!*
+add the following script tag before your code
+```html
+<script src="https://unpkg.com/vue-styled-components"></script>
+```
 
 ## Usage
 
