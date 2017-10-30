@@ -2,7 +2,17 @@
 import hashStr from 'glamor/lib/hash'
 import flatten from '../utils/flatten'
 import styleSheet from './StyleSheet'
-import stylis from 'stylis'
+import Stylis from 'stylis'
+
+
+const stylis = new Stylis({
+  global: false,
+  cascade: true,
+  keyframe: false,
+  prefix: true,
+  compress: false,
+  semicolon: true
+})
 
 export default (nameGenerator) => {
   const inserted = {}
