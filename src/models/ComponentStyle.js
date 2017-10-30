@@ -1,9 +1,8 @@
 
-import hashStr from 'glamor/lib/hash'
+import hashStr from '../vendor/glamor/hash'
 import flatten from '../utils/flatten'
 import styleSheet from './StyleSheet'
 import Stylis from 'stylis'
-
 
 const stylis = new Stylis({
   global: false,

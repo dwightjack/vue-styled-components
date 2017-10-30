@@ -44,7 +44,6 @@
   },
   "dependencies": {
     "fbjs": "^0.8.9",
-    "glamor": "^2.20.24",
     "lodash.isplainobject": "^4.0.6",
     "stylis": "3.x"
   },
