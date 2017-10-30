@@ -68,7 +68,7 @@ describe('with styles', () => {
       ${rule1}
     `
     const vm = new Vue(Comp).$mount()
-    expectCSSMatches('.a {background-color: blue;}.a:hover {-webkit-text-decoration: underline;text-decoration: underline;}')
+    expectCSSMatches('.a {background-color: blue;}.a:hover {text-decoration: underline;}')
   })
 
   it('should handle inline style objects with pseudo selectors', () => {
@@ -82,7 +82,7 @@ describe('with styles', () => {
       ${rule1}
     `
     const vm = new Vue(Comp).$mount()
-    expectCSSMatches('.a {background-color: blue;}.a:hover {-webkit-text-decoration: underline;text-decoration: underline;}')
+    expectCSSMatches('.a {background-color: blue;}.a:hover {text-decoration: underline;}')
   })
 
   it('should handle inline style objects with nesting', () => {
